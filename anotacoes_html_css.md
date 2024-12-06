@@ -4,3 +4,10 @@
 
 - Mode no-quirks : Dá suporte seguindo as padronizações web estabelecidos pelo W3C;
 
+* CSS Box Model : 
+
+- Margin : Espaço externo ao redor do elemento, ou seja, cria espaço entre o elemento e os seus vizinhos; (entre borda e margem da página)
+
+- Border : Linha que envolve o conteúdo e o padding do elemento, ou seja, define a aparência da borda, como largura, estilo e cor; (entre a margin e o padding)
+
+- Padding : Espaço interno entre o conteúdo do elemento e sua borda, ou seja, dá "respiro" ao conteúdo dentro do elemento; (entre a borda e o conteúdo)
