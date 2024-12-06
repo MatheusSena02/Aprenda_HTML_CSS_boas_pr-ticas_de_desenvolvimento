@@ -1,4 +1,19 @@
+* { /* Todos os elementos da página (reset css)*/
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
 body{
+    height: 100vh; /* 100% viewport height = O body ocupa 100% da altura da tela */
+    box-sizing: border-box;
     background-color:#11225f;
     color: #F5E2C8; /* Cor de todos os textos */
+
+}
+
+.destaque-tópico-lista{S
+    color : #bd1e1e;
+    font-weight: bold;
 }
