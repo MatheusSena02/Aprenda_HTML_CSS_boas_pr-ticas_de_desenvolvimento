@@ -11,3 +11,9 @@
 - Border : Linha que envolve o conteúdo e o padding do elemento, ou seja, define a aparência da borda, como largura, estilo e cor; (entre a margin e o padding)
 
 - Padding : Espaço interno entre o conteúdo do elemento e sua borda, ou seja, dá "respiro" ao conteúdo dentro do elemento; (entre a borda e o conteúdo)
+
+* Box Sizing : 
+
+- box-sizing : content-box --> Nesse caso, se você definir a largura de um elemento para 100 pixels, a caixa de conteúdo do elemento terá 100 pixels de largura, e a largura de qualquer borda ou preenchimento será adicionada à largura renderizada final, tornando o elemento mais largo do que 100px.
+
+- box-sizing : border-box (Padrão)--> Diz ao navegador para considerar qualquer borda e preenchimento nos valores que você especificar para a largura e altura de um elemento. Se você definir a largura de um elemento para 100 pixels, esses 100 pixels incluirão qualquer borda ou preenchimento que você adicionou, e a caixa de conteúdo encolherá para absorver essa largura extra. Isso normalmente torna muito mais fácil dimensionar elementos.
