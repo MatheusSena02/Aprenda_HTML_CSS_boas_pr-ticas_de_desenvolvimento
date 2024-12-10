@@ -17,3 +17,7 @@
 - box-sizing : content-box --> Nesse caso, se você definir a largura de um elemento para 100 pixels, a caixa de conteúdo do elemento terá 100 pixels de largura, e a largura de qualquer borda ou preenchimento será adicionada à largura renderizada final, tornando o elemento mais largo do que 100px.
 
 - box-sizing : border-box (Padrão)--> Diz ao navegador para considerar qualquer borda e preenchimento nos valores que você especificar para a largura e altura de um elemento. Se você definir a largura de um elemento para 100 pixels, esses 100 pixels incluirão qualquer borda ou preenchimento que você adicionou, e a caixa de conteúdo encolherá para absorver essa largura extra. Isso normalmente torna muito mais fácil dimensionar elementos.
+
+* Flexbox (Layout flexível ): Dar ao contêiner a capacidade de alterar largura/altura/ordem de seus itens para melhor preencher o espaço disponível. Organização e disposição dos itens no layout.
+
+* Uso do div : A tag div define uma divisão em um documento HTML, costuma ser usado como um contêiner para outros elementos. Permitindo a criação e uso da Flexbox
